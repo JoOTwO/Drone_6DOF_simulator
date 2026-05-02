@@ -422,7 +422,6 @@ if __name__ == "__main__":
     plt.show()
 
     # === 2. 자세 그래프 (Attitude in Degrees) ===
-    # 오버슈트 분석할 때 자세가 꿀렁이는지 확인해야 합니다.
     plt.figure(figsize=(12, 10))
     plt.suptitle("Drone Attitude Response (Euler Angles)", fontsize=16)
 
